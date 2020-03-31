@@ -2,12 +2,12 @@
   <PropertyGroup>
     <MSBuildForUnityVersion>0.8.3</MSBuildForUnityVersion>
     
-    <MSBuildForUnityGeneratedOutputDirectory>F:\unity workspace\Graduation-Project\GraduationProject\MSBuild\Projects</MSBuildForUnityGeneratedOutputDirectory>
-    <UnityProjectAssetsPath>F:\unity workspace\Graduation-Project\GraduationProject\Assets</UnityProjectAssetsPath>
+    <MSBuildForUnityGeneratedOutputDirectory>D:\Ash'Ooosha\Github\Graduation-Project\GraduationProject\MSBuild\Projects</MSBuildForUnityGeneratedOutputDirectory>
+    <UnityProjectAssetsPath>D:\Ash'Ooosha\Github\Graduation-Project\GraduationProject\Assets</UnityProjectAssetsPath>
     <MSBuildForUnityDefaultOutputPath>$(UnityProjectAssetsPath)\Dependencies</MSBuildForUnityDefaultOutputPath>
     
-    <UnityCurrentPlatform>WindowsStandalone64</UnityCurrentPlatform>
-    <UnityCurrentTargetFramework>netstandard2.0</UnityCurrentTargetFramework>
+    <UnityCurrentPlatform>WSA</UnityCurrentPlatform>
+    <UnityCurrentTargetFramework>net46</UnityCurrentTargetFramework>
     
     <UnityMajorVersion>2019</UnityMajorVersion>
     <UnityMinorVersion>3</UnityMinorVersion>
