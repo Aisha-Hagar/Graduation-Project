@@ -310,7 +310,7 @@ GameObject:
   - component: {fileID: 956208947}
   - component: {fileID: 956208948}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Video
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,11 +328,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
+  m_IgnoreReversedGraphics: 0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &956208944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956208942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -169}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1357158807}
@@ -393,7 +393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 269.5, y: 94}
+  m_AnchoredPosition: {x: 310, y: -58}
   m_SizeDelta: {x: 539, y: 188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956208947
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956208942}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fcaf896491074042b7ed7684454a412, type: 3}
   m_Name: 
@@ -525,8 +525,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -621, y: 77}
-  m_SizeDelta: {x: 347.6, y: 302.5}
+  m_AnchoredPosition: {x: -645.5, y: 100}
+  m_SizeDelta: {x: 418.2, y: 98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168062235
 MonoBehaviour:
@@ -592,7 +592,7 @@ VideoPlayer:
   m_TargetCamera: {fileID: 0}
   m_TargetTexture: {fileID: 8400000, guid: 2ed5c3c1d183ad04c889ab8dba2adab2, type: 2}
   m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialRenderer: {fileID: 1995094869}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
@@ -619,7 +619,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300657463}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -255.87, y: -92, z: 6.16}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
@@ -1269,6 +1269,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9278e129eee70044286a52e1c84ccb02, type: 3}
+--- !u!23 &1995094869 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5264565031232616937, guid: 9278e129eee70044286a52e1c84ccb02,
+    type: 3}
+  m_PrefabInstance: {fileID: 5264565030451245932}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3590182803976489268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1349,6 +1355,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: board
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256574937651435891, guid: 974d519c815f42f4abc1327d6b93bfce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9126618135153716064, guid: 974d519c815f42f4abc1327d6b93bfce,
         type: 3}
