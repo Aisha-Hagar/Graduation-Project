@@ -27,8 +27,8 @@ public class vidplayer : MonoBehaviour
 
         // Set the video to play. URL supports local absolute or relative paths.
         // Here, using absolute.
-        videoPlayer.url = "E://Graduation Project/Assets/Classroom/y2mate.com - Prim's Algorithm Animation_wpV1wvHqyuY_360p.mp4";
-
+        videoPlayer.url = "D: //unity/aaa/y2mate.com - Prim's Algorithm Animation_wpV1wvHqyuY_360p.mp4";
+    
         // Skip the first 100 frames.
         videoPlayer.frame = 100;
 
