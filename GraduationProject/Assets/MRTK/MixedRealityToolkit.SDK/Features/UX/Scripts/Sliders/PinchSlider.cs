@@ -5,6 +5,7 @@
 
 using Microsoft.MixedReality.Toolkit.Input;
 using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Microsoft.MixedReality.Toolkit.UI
@@ -407,6 +408,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
         }
         #endregion
 
+
         #region IMixedRealityPointerHandler
 
         public void OnPointerUp(MixedRealityPointerEventData eventData)
@@ -420,7 +422,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
             }
         }
 
-        public void OnPointerDown(MixedRealityPointerEventData eventData)
+        public virtual void OnPointerDown(MixedRealityPointerEventData eventData)
         {
             if (activePointer == null && !eventData.used)
             {
@@ -438,7 +440,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
             }
         }
 
-        public void OnPointerDragged(MixedRealityPointerEventData eventData)
+        public virtual void OnPointerDragged(MixedRealityPointerEventData eventData)
         {
             if (eventData.Pointer == activePointer && !eventData.used)
             {
@@ -446,6 +448,8 @@ namespace Microsoft.MixedReality.Toolkit.UI
                 var handDelta = Vector3.Dot(SliderTrackDirection.normalized, delta);
 
                 SliderValue = Mathf.Clamp(startSliderValue + handDelta / SliderTrackDirection.magnitude, 0, 1);
+                decimal SV = Math.Round((decimal)SliderValue,2);
+                SliderValue = (float)SV;
 
                 // Mark the pointer data as used to prevent other behaviors from handling input events
                 eventData.Use();
@@ -453,5 +457,19 @@ namespace Microsoft.MixedReality.Toolkit.UI
         }
         public void OnPointerClicked(MixedRealityPointerEventData eventData) { }
         #endregion
+
+        //When Hammer is dropped, the slider value is set to 0
+        public void ResetValue()
+        {
+            StartCoroutine(WaitReset());
+            SliderValue = 0f;
+            Debug.Log("Slider reset");
+            Start();
+        }
+
+        IEnumerator WaitReset()
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
     }
 }
