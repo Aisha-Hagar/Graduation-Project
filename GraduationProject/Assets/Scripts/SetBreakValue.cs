@@ -11,7 +11,7 @@ public class SetBreakValue : MonoBehaviour
     {
         if (ValueNotSet)
         {
-            BreakValue = Mathf.Round(Random.Range(0.01f, 1.01f) * 100f) / 100f;
+            BreakValue = Mathf.Round(Random.Range(0.01f, 1.0f) * 100f) / 100f;
             ValueNotSet = false;
         }
         Debug.Log("BreakValue = " + BreakValue);

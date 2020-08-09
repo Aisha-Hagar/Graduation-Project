@@ -8,7 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscapeRoomlvl1.unity
     guid: b62e762644a9cb74abe46b0a0866cb8d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Classroom.unity
-    guid: 60676386ffbd2554fbbe7f1ae463ff56
+    path: Assets/Scenes/Win.unity
+    guid: ba9ee729262a0fc4c98c0fbb41ce8c57
+  - enabled: 1
+    path: Assets/Scenes/Classroomlvl1.unity
+    guid: 9e5a9318512510948b0c0b75da9ef3bc
   m_configObjects: {}

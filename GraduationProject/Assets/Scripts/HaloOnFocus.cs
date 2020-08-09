@@ -26,4 +26,5 @@ public class HaloOnFocus : MonoBehaviour, IMixedRealityFocusHandler
     {
         halo.enabled = false;
     }
+
 }

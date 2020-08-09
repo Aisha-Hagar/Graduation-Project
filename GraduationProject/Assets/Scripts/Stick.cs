@@ -8,6 +8,7 @@ public class Stick : MonoBehaviour
     Animator BoxOpen;
     //Vector3 pos = new Vector3(0.0f,0.0f,-0.5f);
     public Vector3 pos;
+    public AudioSource BoxImpact, OpenBox;
 
     void Start()
     {
@@ -23,7 +24,8 @@ public class Stick : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        
+        BoxImpact.Play();
+
         if (collision.gameObject.name=="Scale")
         {
             this.transform.parent = collision.gameObject.transform;
@@ -69,5 +71,10 @@ public class Stick : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(1.5f);
         cnvs.SetActive(true);
+    }
+
+    public void OpenLid()
+    {
+        OpenBox.Play();
     }
 }

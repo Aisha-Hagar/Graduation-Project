@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 7259029335271874658}
   m_Layer: 0
   m_Name: Myrust_key
-  m_TagString: Untagged
+  m_TagString: KeyMain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,8 +33,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2521271457465116122}
   m_LocalRotation: {x: 0.6390963, y: -0.45481932, z: 0.41801763, w: 0.45821017}
-  m_LocalPosition: {x: -2.482, y: 1.463, z: -0.5652}
-  m_LocalScale: {x: 0.85, y: 0.85, z: 0.8}
+  m_LocalPosition: {x: -2.487, y: 1.501, z: -0.556}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -111,7 +111,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.12
+  m_Radius: 0.2
   m_Center: {x: 3.882528e-16, y: -9.313228e-10, z: 0.0000000037252907}
 --- !u!82 &2867918867146997474
 AudioSource:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
   manipulationType: 2
-  twoHandedManipulationType: 5
+  twoHandedManipulationType: 3
   allowFarManipulation: 1
   oneHandRotationModeNear: 6
   oneHandRotationModeFar: 6
@@ -269,7 +269,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4283695101
-  m_Size: -0.2
+  m_Size: -0.1
 --- !u!114 &7259029335271874658
 MonoBehaviour:
   m_ObjectHideFlags: 0
