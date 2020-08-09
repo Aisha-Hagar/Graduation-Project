@@ -290,13 +290,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &37742679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &37742681
 MonoBehaviour:
@@ -492,13 +492,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &38957130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &38957132
 MonoBehaviour:
@@ -2558,13 +2558,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -2593,7 +2593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &217191935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2621,7 +2621,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &217191937
 MonoBehaviour:
@@ -3718,13 +3718,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -3753,7 +3753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &357671470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3781,7 +3781,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &357671472
 MonoBehaviour:
@@ -4143,13 +4143,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -4178,7 +4178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &364627604
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4206,7 +4206,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &364627606
 MonoBehaviour:
@@ -11314,7 +11314,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: For merging two sorted lists of sizes m and n
+  m_text: 'For merging two sorted lists of sizes m and n the maximum number of comparisons
+    is:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f137eba12ee10834cb19632437cfdb2e, type: 2}
   m_sharedMaterial: {fileID: 21433621844796372, guid: f137eba12ee10834cb19632437cfdb2e,
@@ -11343,7 +11344,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 49.7
+  m_fontSize: 40.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11381,15 +11382,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -52.034492}
+  m_margin: {x: 0, y: 0, z: 0, w: -82.007286}
   m_textInfo:
     textComponent: {fileID: 912845614}
-    characterCount: 45
+    characterCount: 83
     spriteCount: 0
-    spaceCount: 9
-    wordCount: 10
+    spaceCount: 15
+    wordCount: 16
     linkCount: 0
-    lineCount: 2
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -12479,7 +12480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &1052931775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12507,7 +12508,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &1052931777
 MonoBehaviour:
@@ -12522,13 +12523,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -16159,13 +16160,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -16194,7 +16195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &1483830938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16222,7 +16223,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &1483830940
 MonoBehaviour:
@@ -18064,13 +18065,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -18099,7 +18100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &1596046067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18127,7 +18128,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &1596046069
 MonoBehaviour:
@@ -18311,13 +18312,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -18346,7 +18347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &1641860243
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18374,7 +18375,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &1641860245
 MonoBehaviour:
@@ -21969,13 +21970,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 0}
-  manipulationType: 2
+  manipulationType: 0
   twoHandedManipulationType: 3
   allowFarManipulation: 1
-  oneHandRotationModeNear: 6
-  oneHandRotationModeFar: 6
+  oneHandRotationModeNear: 4
+  oneHandRotationModeFar: 4
   releaseBehavior: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 3
   useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
@@ -22004,7 +22005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 1
+  ShowTetherWhenManipulating: 0
 --- !u!65 &2134351752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22032,7 +22033,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &2134351754
 MonoBehaviour:
